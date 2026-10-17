@@ -10,7 +10,7 @@
 
 🔮 Quartz Oscillation · ⚡ Frequency Division · ⏱️ Digital Timekeeping
 
-🕔 [**Explore the Simulation**](https://YOUR-CLOUDFLARE-PROJECT.pages.dev/)
+🕔 [**Explore the Simulation**](https://qronox.stark-kodex.workers.dev)
 
 ---
 
