@@ -1,50 +1,65 @@
-
 <p align="center">
   <img src="assets/banner.png" alt="QronoX — Interactive Quartz Clock Simulator" width="100%">
 </p>
 
-<h1 align="center">💎 QronoX</h1>
+🕰️ **QronoX**
 
-<h3 align="center"><em>Interactive Quartz Clock Simulator</em></h3>
+Interactive Quartz Clock Simulator
 
-<p align="center">
-  QronoX simulates how quartz vibrations power digital timekeeping, from frequency division to display and accuracy.
-</p>
+> QronoX simulates how quartz vibrations power digital timekeeping, from frequency division to display and accuracy.
 
-<p align="center">
-  💎 Quartz Oscillation · ⚡ Frequency Division · ⏱️ Digital Timekeeping
-</p>
+🔮 Quartz Oscillation · ⚡ Frequency Division · ⏱️ Digital Timekeeping
 
-<p align="center">
-  🔬 <a href="YOUR_ACTUAL_DEMO_URL"><strong>Explore the Simulation</strong></a>
-</p>
+🔬 **Explore the Simulation**
 
 ---
 
-## ✦ Features
+✦ **Features**
 
-- 💎 **Quartz Crystal:** Explore tuning-fork vibration, electrode polarity, and feedback amplification.
-- ⚡ **Frequency Divider:** Visualize 15 stages reducing 32,768 Hz to 1 Hz.
-- ⏱️ **Digital Counter:** Observe seconds, minutes, hours, and counter rollover.
-- 🔢 **Seven-Segment Display:** Explore how numerical digits are represented.
-- 🌡️ **Temperature and Accuracy:** Investigate modeled frequency drift and timekeeping error.
-- 🔋 **Interactive Controls:** Remove the battery, synchronize the watch, and freeze or resume the simulation.
-- 🎚️ **Variable Speed:** Slow crystal oscillations for easier observation.
-- 📚 **Guided Learning Tour:** Explore the working principles step by step.
-- 📱 **Responsive Interface:** Works on desktop and mobile.
+- 💎 Quartz crystal: explore tuning-fork vibration, electrode polarity and feedback amplification
+- ⚡ Frequency divider: visualize 15 stages reducing 32,768 Hz to 1 Hz
+- ⏱️ Digital counter: observe seconds, minutes, hours and counter rollover
+- 🔢 Seven-segment display: explore how numerical digits are represented
+- 🌡️ Temperature and accuracy: investigate modeled frequency drift and timekeeping error
+- 🔋 Interactive controls: remove the battery, synchronize the watch, and freeze or resume the simulation
+- 🎚️ Variable speed: slow crystal oscillations for easier observation
+- 📚 Guided learning tour: explore the working principles step by step
+- 📱 Responsive interface: works on desktop and mobile
 
 ---
 
-## 💎 Working Principle
+📃 **Principle**
 
-1. **Battery:** Supplies electrical energy to the circuit.
-2. **Quartz Crystal:** Vibrates at its natural frequency through the piezoelectric effect.
-3. **Oscillator:** Sustains vibration through an amplifier and feedback loop.
-4. **Frequency Divider:** Halves the frequency across 15 stages.
-5. **Counter:** Converts 1 Hz pulses into seconds, minutes, and hours.
-6. **Display:** Represents time using seven-segment digits.
+---
 
-### Frequency Division
+## 📃 Principle
+
+```mermaid
+flowchart TD
+    A["🔋 Battery"] --> B["💎 Quartz Crystal<br/>32,768 Hz"]
+    B --> C["⚡ Oscillator & Feedback Loop"]
+    C --> D["🔄 Frequency Divider<br/>15 stages"]
+    D --> E["⏱️ 1 Hz Pulse"]
+    E --> F["🔢 Digital Counter"]
+    F --> G["Seconds"]
+    F --> H["Minutes"]
+    F --> I["Hours"]
+    G --> J["🕰️ Seven-Segment Display"]
+    H --> J
+    I --> J
+
+    style A fill:#332b18,stroke:#f5b942,color:#ffffff
+    style B fill:#102c46,stroke:#35aaff,color:#ffffff
+    style C fill:#103a35,stroke:#25d9b7,color:#ffffff
+    style D fill:#292044,stroke:#ad82ff,color:#ffffff
+    style E fill:#3d3017,stroke:#ffc34d,color:#ffffff
+    style F fill:#401d20,stroke:#ff6868,color:#ffffff
+    style J fill:#102e38,stroke:#35d9f5,color:#ffffff
+```
+
+### 🔢 Frequency Division
+
+The quartz crystal oscillates at 32,768 Hz. Fifteen successive divide-by-two stages produce one pulse per second.
 
 $$
 32768 = 2^{15}
@@ -54,19 +69,31 @@ $$
 \frac{32768\ \text{Hz}}{2^{15}} = 1\ \text{Hz}
 $$
 
+📟 **Frequency Division**
+
+$$
+32768 = 2^{15}
+$$
+
+$$
+\frac{32768\ \text{Hz}}{2^{15}} = 1\ \text{Hz}
+$$
+
+
 ---
 
-## ⚙️ Technology
+👨🏻‍💻 **Technology**
 
 HTML · CSS · JavaScript · SVG · Canvas API
 
-- **Visualization:** SVG-based crystal, circuit, and seven-segment illustrations.
-- **Graphing:** Canvas-based temperature–frequency curve.
-- **Typography:** IBM Plex Sans and Roboto.
-- **Architecture:** Browser-native technologies without a JavaScript framework.
+- Visualization: SVG-based crystal, circuit and seven-segment illustrations
+- Graphing: Canvas-based temperature–frequency curve
+- Typography: IBM Plex Sans and Roboto
+- Architecture: browser-native technologies without a JavaScript framework
+
 
 ---
 
-## 📜 License
+📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
