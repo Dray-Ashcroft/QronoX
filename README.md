@@ -14,31 +14,7 @@
 
 ---
 
-✦ **Features**
-
-```mermaid
-flowchart TD
-    A["💎 Quartz Crystal"] --> B["⚡ Frequency Divider"]
-    B --> C["⏱️ Digital Counter"]
-    C --> D["🔢 Seven-Segment Display"]
-
-    E["🌡️ Temperature and Accuracy"]
-    F["🔋 Interactive Controls"]
-    G["🎚️ Variable Speed"]
-    H["📱 Responsive Interface"]
-
-    style A fill:#102c46,stroke:#35aaff,color:#ffffff
-    style B fill:#292044,stroke:#ad82ff,color:#ffffff
-    style C fill:#3d3017,stroke:#ffc34d,color:#ffffff
-    style D fill:#401d20,stroke:#ff6868,color:#ffffff
-    style E fill:#103a35,stroke:#25d9b7,color:#ffffff
-    style F fill:#332b18,stroke:#f5b942,color:#ffffff
-    style G fill:#102e38,stroke:#35d9f5,color:#ffffff
-    style H fill:#202b3a,stroke:#9bb5d1,color:#ffffff
-```
----
-
-📃 **Working Principle**
+📃 **Features**
 
 ```mermaid
 flowchart TD
