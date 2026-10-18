@@ -36,13 +36,13 @@ flowchart TD
     style D fill:#292044,stroke:#ad82ff,color:#ffffff
     style E fill:#3d3017,stroke:#ffc34d,color:#ffffff
     style F fill:#401d20,stroke:#ff6868,color:#ffffff
-    style J fill:#102e38,stroke:#35d9f5,color:#ffffff
+    style J fill:#102e38,stroke:#35d9f5,color:#ffffff.
 ```
+---
 
 ⚡ **Frequency Division**
 
-[**Launch Frequency Simulator**]
-(https://tritonyx.stark-kodex.workers.dev)
+[**Launch Frequency Simulator**](https://tritonyx.stark-kodex.workers.dev)
 
 ---
 
